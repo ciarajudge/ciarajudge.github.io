@@ -1582,15 +1582,19 @@ height: 100%;
 
 		.ag-timeline_item:nth-child(4n) .ag-timeline-card_item {
 		  background-color: #ffd06f;
+			color: #e76254;
 		}
 		.ag-timeline_item:nth-child(4n+1) .ag-timeline-card_item {
 		  background-color: #f7aa58;
+			color: #ffd06f;
 		}
 		.ag-timeline_item:nth-child(4n+2) .ag-timeline-card_item {
 		  background-color: #e76254;
+			color: #f7aa58;
 		}
 		.ag-timeline_item:nth-child(4n+3) .ag-timeline-card_item {
 		  background-color: #ef8a47;
+			color: #ffe6b7;
 		}
 		.ag-timeline_item:nth-child(4n) .ag-timeline-card_arrow {
 		  background-color: #ffd06f;
@@ -1689,7 +1693,7 @@ height: 100%;
 		  font-family: 'ESL Legend', sans-serif;
 		  font-weight: bold;
 		  font-size: 28px;
-		  color: #e76254;
+		  /*color: #e76254;*/
 		}
 		.ag-timeline-card_desc {
 		  line-height: 1.45;

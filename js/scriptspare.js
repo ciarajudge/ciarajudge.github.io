@@ -66,41 +66,15 @@
       agFlag = true;
     }
 
-    $(".owl-carousel").owlCarousel({
-    items: 3,
-    margin:10,
-    loop: true,
-    center:true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: false
-      },
-      680: {
-        items: 2,
-        nav: true,
-        loop: true
-      },
-      850: {
-        items: 3,
-        nav: true,
-        loop: true
-      },
-      1200: {
-        items: 4,
-        nav: true
-      }
-    }
-    });
 
   });
 })(jQuery);
 
-/*(function () {
+(function () {
   "use strict";
 
   var carousels = function () {
-    $(".owl-carousel").owlCarousel({
+    $(".owl-carousel1").owlCarousel({
       loop: true,
       center: true,
       margin: 0,
@@ -127,4 +101,4 @@
   (function ($) {
     carousels();
   })(jQuery);
-})();*/
+})();

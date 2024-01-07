@@ -1726,9 +1726,9 @@ height: 100%;
 		}
 
 		.ag-timeline-card_button1 {
-		 background-color: #ffe6b7;
-		 color: #e76254;
-		 border-color: #e76254;
+		 background-color: #faefd9;
+		 color: #f7aa58;
+		 border-color: #f7aa58;
 		 padding: 10px 10px;
 		 text-align: center;
 		 text-decoration: none;
@@ -1744,8 +1744,8 @@ height: 100%;
 		}
 
 		.ag-timeline-card_button1:hover {
-		 background-color: #e76254;
-		 color: #ffe6b7;
+		 background-color: #f7aa58;
+		 color: #faefd9;
 		}
 
 		.ag-timeline-card_button2 {

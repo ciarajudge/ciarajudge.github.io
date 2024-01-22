@@ -9,7 +9,7 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			
+
 			// Global.
 				global: {
 					range: '*',
@@ -21,6 +21,12 @@
 							horizontal: 0
 						}
 					}
+				},
+
+				xxlarge: {
+					range: '-2400',
+					href: 'css/style-xxlarge.css',
+					containers: 1200
 				},
 
 			// XLarge.
@@ -79,12 +85,12 @@
 		},
 		plugins: {
 			layers: {
-				
+
 				// Config.
 					config: {
 						transform: true
 					},
-				
+
 				// Navigation Panel.
 					navPanel: {
 						animation: 'pushX',
@@ -114,9 +120,9 @@
 	});
 
 	$(function() {
-		
+
 		// jQuery ready stuff.
-		
+
 	});
 
 })(jQuery);
